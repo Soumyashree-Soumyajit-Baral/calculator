@@ -10,11 +10,11 @@ body{
     position: absolute;
     transform: translate(-50%,-50%);
     margin: 0 auto;
-    width: 256px;
+    width: 400px;
     text-align: center;
-    border: 10px solid black ;
-    background: black;
-    border-radius: 5px;
+    border: 15px solid grey ;
+    background: rgb(175, 167, 167);
+    border-radius: 2px;
 }
 .keypad{
     display: grid;
@@ -23,11 +23,11 @@ body{
 }
 
 input[type="text"]{
-    height: 75px;
-    width: 249px;
-    background-color: black;
-    border: 0px;
-    color: white;
+    height: 60px;
+    width: 384px;
+    background-color: white;
+    border: 2px solid grey;
+    color: black;
     text-align: right;
     font-size: 25px;
     font-weight: 500;
@@ -56,7 +56,7 @@ button{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background: #262834;
+    background: blue;
     color: white;
     font-weight: 500;
 }
@@ -67,5 +67,5 @@ button:active{
     outline: none;
 }
 .highlight{
-    background: purple;
+    background:blue;
 }
